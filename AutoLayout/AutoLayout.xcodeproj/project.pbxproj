@@ -12,6 +12,7 @@
 		04A407F71F9A812E00115610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A407F51F9A812E00115610 /* Main.storyboard */; };
 		04A407F91F9A812E00115610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A407F81F9A812E00115610 /* Assets.xcassets */; };
 		04A407FC1F9A812E00115610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A407FA1F9A812E00115610 /* LaunchScreen.storyboard */; };
+		04A408051F9A96F200115610 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A408041F9A96F200115610 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		04A407F81F9A812E00115610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A407FB1F9A812E00115610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A407FD1F9A812E00115610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A408041F9A96F200115610 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				04A407F11F9A812E00115610 /* AppDelegate.swift */,
 				04A407F31F9A812E00115610 /* ViewController.swift */,
+				04A408031F9A96E100115610 /* Extensions */,
 				04A407F51F9A812E00115610 /* Main.storyboard */,
 				04A407F81F9A812E00115610 /* Assets.xcassets */,
 				04A407FA1F9A812E00115610 /* LaunchScreen.storyboard */,
 				04A407FD1F9A812E00115610 /* Info.plist */,
 			);
 			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		04A408031F9A96E100115610 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04A408041F9A96F200115610 /* Colors.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A407F41F9A812E00115610 /* ViewController.swift in Sources */,
+				04A408051F9A96F200115610 /* Colors.swift in Sources */,
 				04A407F21F9A812E00115610 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K53FCL976W;
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.muh-azharudheen.AutoLayout";
@@ -289,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K53FCL976W;
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.muh-azharudheen.AutoLayout";
